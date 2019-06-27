@@ -1,0 +1,114 @@
+/* =====================  our_team_wrap  ========================  */ 
+.our_team_wrap {
+    padding: 130px 0 195px;
+    .sec_title {
+        margin-bottom: 75px;
+    }
+    .our_team_row {
+        margin: 0 -30px;
+        .our_team_col {
+            padding: 0 30px;
+        }
+    }
+}
+.our_team_slider {
+    .slick-dots {
+        bottom: -80px;
+        li {
+            width: 14px;
+            height: 14px;
+            background:  transparent;
+            border: 1px solid #858B97; 
+            border-radius: 50%;
+            button {
+                display: none;
+            }
+            &.slick-active,
+            &:hover {
+                background:  $brand_color;
+                border: 1px solid $brand_color; 
+            }
+        }
+    }
+}
+
+.our_team_slider_item {
+    .our_team_single_item {
+        position: relative;
+        margin-bottom: 30px;
+        &::before {
+            position: absolute;
+            content: "";
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(43, 44, 91, 0.6);
+            transition: all 0.5s;
+            opacity: 0;
+        }
+        .team_member_img {
+            img {
+                width: 100%;
+            }
+        }
+        .team_details {
+            position: absolute;
+            bottom: -30px;
+            right: -30px;
+            background: $brand_color;
+            width: 100%;
+            padding: 20px 0;
+            h4 {
+                color: $primary_color;
+                font: 500 20px/28px $pop;
+                margin-bottom: 5px;
+            }
+            p {
+                color: #E2E2E2;
+                margin-bottom: 0;
+            }
+        }
+        .team_social {
+            position: absolute;
+            right: 0;
+            bottom: 75px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            transition: all 0.5s;
+            opacity: 0;
+            li {
+                display: block;
+                margin-bottom: 20px;
+
+                a {
+                    display: inline-block;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 38px;
+                    text-align: center;
+                    color: $primary_color;
+                    border: 1px solid $primary_color;
+                    border-radius: 50%;
+                    transition: all 0.5s;
+                    &:hover {
+                        background: $primary_color;
+                        color: $brand_color
+                    }
+                }
+            }
+        }
+        &:hover {
+            &::before {
+                opacity: 1;
+            }
+            .team_social {
+                right: 20px;
+                opacity: 1;
+            }
+        }
+    }
+}
+
+/* =====================  our_team_wrap  ========================  */ 

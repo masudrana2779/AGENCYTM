@@ -1,0 +1,87 @@
+/* =============================  customar_review_wrap  ====================================== */
+
+.customar_review_wrap {
+    position: relative;
+    .shape_2,
+    .shape_3 {
+        position: absolute;
+    }
+    .shape_2 {
+        top: 30px;
+        right: 80px;
+    }
+    .shape_3 {
+        top: 150px;
+        right: 150px;
+    }
+    .sec_title {
+
+    }
+}
+.customar_review_slider_wrap {
+    position: relative;
+    .shape_1 {
+        position: absolute;
+        left: -150px;
+        bottom: 0;
+        display: inline-block;
+    }
+    .customar_review_slider {
+        margin-bottom: 0;
+        .slick-dots {
+            bottom: 100px;
+            padding: 0;
+            margin: 0;
+            li {
+            margin: 0 3px;
+            padding: 0;
+            width: 14px;
+            height: 3px;
+            background: $brand_color;
+            opacity: 0.4;
+                button {
+                    display: none;
+                }
+                &:hover,
+                &.slick-active {
+                    opacity: 1;
+                }
+            }
+        }
+        .customar_review_slider_item {
+            .customar_review_img {
+                img {
+                    max-width: 370px;
+                    width: 100%;
+                }
+            }
+            .customar_review_text {
+                position: relative;
+                .comma {
+                    position: absolute;
+                    top: -13px;
+                    left: -10px;
+                }
+                p {
+                    color: #858B97;
+                    font: 400 18px/38px $pop;
+                    margin-bottom: 30px;
+                }
+                h5 {
+                    color: $dark_color;
+                    font: 500 18px/26px $pop;
+                    margin-bottom: 0;
+
+                }
+                h6 {
+                    color: $light_color;
+                    font: 400 15px/26px $pop;
+
+                }
+            }
+        }
+    }
+}
+
+
+/* =============================  customar_review_wrap  ====================================== */

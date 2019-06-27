@@ -1,0 +1,74 @@
+/*======================        header style    ============================  */
+.header  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1080;
+    padding: 15px 0;
+    transition: all 0.5s;
+
+    .header_nav {
+        padding: 8px 0px;
+        .logo {
+            a {
+                display: inline-block;
+                font: 600 30px/46px $pop;
+                color: $primary_color;
+                text-transform: uppercase;
+                transition: all 0.5s;
+                img {
+                    max-width: 168px;
+                    width: 100%;
+                }
+            }
+        }
+        .navbar-toggler {
+            span {
+
+            }
+        }
+        .header_main_menu {
+            .nav_menu {
+                li.nav-item {
+                    a.nav-link {
+                        display: inline-block;
+                        font: 400 16px/25px $pop;
+                        padding: 0;
+                        margin: 0 40px  0 0;
+                        transition: all 0.5s;
+                        color: $primary_color;
+                        
+                        &:hover ,
+                        &.active {
+                            color: $brand_color;
+                        }
+                    }
+                    &:last-child {
+                        a {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.fixedMenu {
+        background: $primary_color;
+        padding: 0;
+        box-shadow: 0 3px 11px rgba(0,0,0,0.3);
+        .header_nav .logo a {
+            color: $dark_color;
+        }
+        .header_nav .header_main_menu .nav_menu li.nav-item a.nav-link {
+            color: $dark_color;
+        }
+        .header_nav .header_main_menu .nav_menu li.nav-item:hover a.nav-link, 
+        .header_nav .header_main_menu .nav_menu li.nav-item a.nav-link.active {
+            color: $brand_color;
+        }
+        .header_nav button.navbar-toggler span.bar {
+            background: $brand_color;;
+        }
+    }
+}

@@ -1,0 +1,83 @@
+
+/*  fonts   */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,600,700,800,900');
+
+
+body {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: $pop;
+    color: $dark_color;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: $pop;
+    color: $light_color;
+}
+
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1170px;
+    }
+}
+
+.brand_color {
+    color: $brand_color;
+}
+
+.primary_color {
+    color: $primary_color;
+}
+
+.dark_color {
+    color: $primary_color;
+}
+
+.btn_group {
+
+}
+
+.btn_glob {
+    display: inline-block;
+    text-decoration: none;
+    font: 500 15px/30px $pop;
+    color: $brand_color;
+    border: 2px solid $brand_color;
+    padding: 10px 35px;
+    border-radius: 0;
+    transition: all 0.5s;
+
+    &.btn_solid {
+        background: $brand_color;
+        color: $primary_color;
+        &:hover {
+            background: transparent;
+            color: $brand_color;
+        }
+    }
+    &.btn_border {
+        background: transparent;
+        color: $brand_color;
+        &:hover {
+            background: $brand_color;
+            color: $primary_color;
+        }
+
+    }
+    & + .btn_glob {
+        margin-left: 25px;
+    }
+}
+
+.sec_sub_title {
+    color: $brand_color;
+    font: 500 16px/30px $pop;
+}
+
+.sec_title {
+    color: $dark_color;
+    font: 700 34px/44px $pop;
+}
