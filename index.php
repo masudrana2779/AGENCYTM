@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AGENCYTM</title>
+    <title>Demo Website</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/elegant-icon.css">
@@ -28,8 +28,8 @@
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg header_nav">
                         <div class="logo">
-                            <a class="navbar-brand" href="index.html">
-                                AG<span class="brand_color">ENCYT</span>M
+                            <a class="navbar-brand" href="index.php">
+                                MA<span class="brand_color">HARU</span>L
                                 <!-- <img src="assets/img/logo.png" alt="logo"> -->
                             </a>
                         </div>
@@ -56,9 +56,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#team">Team</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="./blog.html">Blog</a>
-                                </li>
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="blog.php">Blog</a>
+                                </li> -->
                             </ul>
                         </div>
                     </nav>
@@ -76,8 +76,10 @@
                 <div class="col-12">
                     <div class="banner_content">
                         <div class="banner_content_inner">
-                            <h1 class="text-center banner_title wow fadeInUp" data-wow-delay="0.2s">Start <span class="brand_color">business</span> <br> building a better tomorrow</h1>
-                            <p class="text-center wow fadeInUp" data-wow-delay="0.4s">Purus urna lobortis montes aliquet diam pede molestie omnis, debitis, dui. Ultricies, iste delectus dis, nesciunt! gravida facilis pretium voluptas sagittis dignissim </p>
+                            <h1 class="text-center banner_title wow fadeInUp" data-wow-delay="0.2s">Digital Landscape
+                            	<!-- <span class="brand_color">change</span> <br> in -->
+                            </h1>
+                            <p class="text-center wow fadeInUp" data-wow-delay="0.4s">Leveraging 10+ years of expertise making your business foundation secure & reliable </p>
                             <div class="btn_group text-center">
                                 <a href="#" class="btn btn_glob btn_solid wow fadeInUp" data-wow-delay="0.6s">Get Started</a>
                                 <a href="#" class="btn btn_glob btn_border wow fadeInUp" data-wow-delay="0.8s">Read More</a>
@@ -110,8 +112,13 @@
                 <div class="col-lg-5 col-md-12 col-sm-12 col-12">
                     <div class="about_content">
                         <h5 class="sec_sub_title brand_color wow fadeInUp" data-wow-delay="0.1s">ABOUT US</h5>
-                        <h2 class="sec_title about_title wow fadeInUp" data-wow-delay="0.3s">We always deliver you our best product's got it.</h2>
-                        <p class=" wow fadeInUp" data-wow-delay="0.6s">Rem wisi ullam temporibus sit wisi placeat incididunt. Adipisci ultricies eros euismod cumque earum sem nec, arcu a eu tristique, rerum placeat.</p>
+                        <h2 class="sec_title about_title wow fadeInUp" data-wow-delay="0.3s">bringing change in digital business.</h2>
+                        <p class=" wow fadeInUp" data-wow-delay="0.6s">
+                        	We are the leading digital platform and managed service solution provider in Bangladesh since 2011 focused on developing customer centric solutions.
+                        	<br><br>
+                        	Our 360-degree approach in digital technology value chain comprises of biggest streaming platform in Bangladesh along with own OTT platform, Local CDN, content aggregation, content production and Digital Marketing platform.
+                    		<br><br>
+                    		We’re the mavens of future-driven technology! </p>
                         <div class="about_service_wrap">
                             <div class="row">
                                 <div class="col-4">
@@ -152,7 +159,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                    <h2 class="text-center sec_title wow fadeInUp" data-wow-delay="0.3s">We always try provide you <br> our best services.</h2>
+                    <h2 class="text-center sec_title wow fadeInUp" data-wow-delay="0.3s"> Engineered for Excellence </h2>
                 </div>
             </div>
             <div class="row service_item_row">
@@ -161,8 +168,8 @@
                         <div class="service_icon text-center">
                             <i class="flaticon-rgb"></i>
                         </div>
-                        <h4 class="text-center service_title">Product Design</h4>
-                        <p class="text-center service_para">Cupidatat irure gravida pede esse semper numquam, consectetuer dolore tempore.</p>
+                        <h4 class="text-center service_title">Telecommunication Operator Service</h4>
+                        <p class="text-center service_para"> We provide Telco Systems and Services globally with 4 operators of bangladesh.</p>
                         <div class="text-center">
                             <a href="#" class="read_more">Read More <i class="flaticon-next"></i></a>
                         </div>
@@ -171,10 +178,10 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 service_item_col">
                     <div class="service_single_item wow fadeInUp" data-wow-delay="0.6s">
                         <div class="service_icon text-center">
-                            <i class="flaticon-download"></i>
+                            <i class="flaticon-document"></i>
                         </div>
-                        <h4 class="text-center service_title">Free Download</h4>
-                        <p class="text-center service_para">Cupidatat irure gravida pede esse semper numquam, consectetuer dolore tempore.</p>
+                        <h4 class="text-center service_title">Scalable Application Design & Development</h4>
+                        <p class="text-center service_para"> We provide Telco Systems and Services globally with 4 operators of bangladesh.</p>
                         <div class="text-center">
                             <a href="#" class="read_more">Read More <i class="flaticon-next"></i></a>
                         </div>
@@ -185,8 +192,8 @@
                         <div class="service_icon text-center">
                             <i class="flaticon-gear"></i>
                         </div>
-                        <h4 class="text-center service_title">Free Services</h4>
-                        <p class="text-center service_para">Cupidatat irure gravida pede esse semper numquam, consectetuer dolore tempore.</p>
+                        <h4 class="text-center service_title">Video Streaming Platform</h4>
+                        <p class="text-center service_para">We provide Telco Systems and Services globally with 4 operators of bangladesh.</p>
                         <div class="text-center">
                             <a href="#" class="read_more">Read More <i class="flaticon-next"></i></a>
                         </div>
@@ -195,10 +202,10 @@
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12 service_item_col">
                     <div class="service_single_item wow fadeInUp" data-wow-delay="0.3s">
                         <div class="service_icon text-center">
-                            <i class="flaticon-document"></i>
+                            <i class="flaticon-download"></i>
                         </div>
-                        <h4 class="text-center service_title">Documents write</h4>
-                        <p class="text-center service_para">Cupidatat irure gravida pede esse semper numquam, consectetuer dolore tempore.</p>
+                        <h4 class="text-center service_title">Content Production & Sourcing</h4>
+                        <p class="text-center service_para">We provide Telco Systems and Services globally with 4 operators of bangladesh.</p>
                         <div class="text-center">
                             <a href="#" class="read_more">Read More <i class="flaticon-next"></i></a>
                         </div>
@@ -209,8 +216,8 @@
                         <div class="service_icon text-center">
                             <i class="flaticon-refresh-1"></i>
                         </div>
-                        <h4 class="text-center service_title">New Update</h4>
-                        <p class="text-center service_para">Cupidatat irure gravida pede esse semper numquam, consectetuer dolore tempore.</p>
+                        <h4 class="text-center service_title">Digital Marketing & Advertisement Delivery Platform</h4>
+                        <p class="text-center service_para">We provide Telco Systems and Services globally with 4 operators of bangladesh.</p>
                         <div class="text-center">
                             <a href="#" class="read_more">Read More <i class="flaticon-next"></i></a>
                         </div>
@@ -221,8 +228,8 @@
                         <div class="service_icon text-center">
                             <i class="flaticon-pen"></i>
                         </div>
-                        <h4 class="text-center service_title">Graphic Design</h4>
-                        <p class="text-center service_para">Cupidatat irure gravida pede esse semper numquam, consectetuer dolore tempore.</p>
+                        <h4 class="text-center service_title">SMS & IVR Platform</h4>
+                        <p class="text-center service_para">We provide Telco Systems and Services globally with 4 operators of bangladesh.</p>
                         <div class="text-center">
                             <a href="#" class="read_more">Read More <i class="flaticon-next"></i></a>
                         </div>
@@ -563,17 +570,17 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12 blog_col">
                     <div class="blog_single_item wow fadeInUp" data-wow-delay="0.3s">
                         <div class="blog_img">
-                            <a href="./blog-single.html"> <img src="assets/img/blog_img_1.jpg" alt="blog img" class="img-fluid"></a>
+                            <a href="#"> <img src="assets/img/blog_img_1.jpg" alt="blog img" class="img-fluid"></a>
                         </div>
                         <div class="blog_content">
-                            <a href="./blog-single.html" class="blog_title">Marketing Profs is industry lead when  blogs</a>
+                            <a href="#" class="blog_title">Marketing Profs is industry lead when  blogs</a>
                             <p>Natoque omnis, sem euismod praesent find an praesentium felis voluptates mattis nobis lacus</p>
                             <div class="blog_author">
                                 <span>
                                     <b>By</b> Inverness McKenzie
                                 </span>
                                 <span class="float-right">
-                                    <a href="./blog-single.html" class="read_more">Read More <i class="flaticon-next"></i></a>
+                                    <a href="#" class="read_more">Read More <i class="flaticon-next"></i></a>
                                 </span>
                             </div>
                         </div>
@@ -582,17 +589,17 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12 blog_col">
                     <div class="blog_single_item wow fadeInUp" data-wow-delay="0.6s">
                         <div class="blog_img">
-                            <a href="./blog-single.html"><img src="assets/img/blog_img_2.jpg" alt="blog img" class="img-fluid"></a>
+                            <a href="#"><img src="assets/img/blog_img_2.jpg" alt="blog img" class="img-fluid"></a>
                         </div>
                         <div class="blog_content">
-                            <a href="./blog-single.html" class="blog_title">Marketing Profs is industry lead when  blogs</a>
+                            <a href="#" class="blog_title">Marketing Profs is industry lead when  blogs</a>
                             <p>Natoque omnis, sem euismod praesent find an praesentium felis voluptates mattis nobis lacus</p>
                             <div class="blog_author">
                                 <span>
                                     <b>By</b> Inverness McKenzie
                                 </span>
                                 <span class="float-right">
-                                    <a href="./blog-single.html" class="read_more">Read More <i class="flaticon-next"></i></a>
+                                    <a href="#" class="read_more">Read More <i class="flaticon-next"></i></a>
                                 </span>
                             </div>
                         </div>
@@ -601,17 +608,17 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 col-12 blog_col">
                     <div class="blog_single_item wow fadeInUp" data-wow-delay="0.9s">
                         <div class="blog_img">
-                            <a href="./blog-single.html"><img src="assets/img/blog_img_3.jpg" alt="blog img" class="img-fluid"></a>
+                            <a href="#"><img src="assets/img/blog_img_3.jpg" alt="blog img" class="img-fluid"></a>
                         </div>
                         <div class="blog_content">
-                            <a href="./blog-single.html" class="blog_title">Marketing Profs is industry lead when  blogs</a>
+                            <a href="#" class="blog_title">Marketing Profs is industry lead when  blogs</a>
                             <p>Natoque omnis, sem euismod praesent find an praesentium felis voluptates mattis nobis lacus</p>
                             <div class="blog_author">
                                 <span>
                                     <b>By</b> Inverness McKenzie
                                 </span>
                                 <span class="float-right">
-                                    <a href="./blog-single.html" class="read_more">Read More <i class="flaticon-next"></i></a>
+                                    <a href="#" class="read_more">Read More <i class="flaticon-next"></i></a>
                                 </span>
                             </div>
                         </div>
@@ -629,7 +636,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="footer_single_item wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="index.html" class="footer_logo">AG<span class="brand_color">ENCYT</span>M</a>
+                        <a href="index.php" class="footer_logo">AG<span class="brand_color">ENCYT</span>M</a>
                         <p>Natoque omnis, sem euismod praesent find an praesentium felis voluptates mattis nobis lacus expedita convallis! </p>
                     </div>
                 </div>
