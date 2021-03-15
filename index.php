@@ -262,7 +262,7 @@
         <div class="row align-items-center">
             <div class="col-lg-9 col-md-8 col-sm-12 col-12">
                 <div class="call_to_action_text">
-                    <p class=" wow fadeInUp" data-wow-delay="0.3s">Do you have any project?</p>
+                    <p class=" wow fadeInUp" data-wow-delay="0.3s">Want to join our winning team?</p>
                     <h2 class=" wow fadeInUp" data-wow-delay="0.6s">Let's Work Together Indeed!</h2>
                 </div>
             </div>

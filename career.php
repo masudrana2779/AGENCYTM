@@ -27,9 +27,8 @@
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg header_nav">
                         <div class="logo">
-                            <a class="navbar-brand" href="index.html">
-                                AG<span class="brand_color">ENCYT</span>M
-                                <!-- <img src="assets/img/logo.png" alt="logo"> -->
+                            <a class="navbar-brand" href="index.php">
+                                <img src="./assets/img/logo.png" alt="logo">
                             </a>
                         </div>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header_main_menu" aria-expanded="false">
@@ -39,12 +38,21 @@
                         </button>
                         <div class="collapse navbar-collapse header_main_menu" id="header_main_menu">
                             <ul class="navbar-nav ml-auto nav_menu">
-                                <li class="nav-item"><a class="nav-link" href="./index.html#home">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="./index.html#about_us">About us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="./index.html#services">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="./index.html#gallery">Gallery</a></li>
-                                <li class="nav-item"><a class="nav-link" href="./index.html#team">Team</a></li>
-                                <li class="nav-item"><a class="nav-link active" href="./blog.html">Blog</a></li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./index.php#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./index.php#about_us">About us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./index.php#services">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./index.php#career">Career</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./index.php#contact">Contact Us</a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
@@ -62,7 +70,7 @@
                 <div class="col-12">
                     <div class="banner_content">
                         <div class="banner_content_inner">
-                            <h1 class="text-center banner_title wow fadeInUp" data-wow-delay="0.3s"> Marketing Profs is industry lead when  blogs</h1>
+                            <h1 class="text-center banner_title wow fadeInUp" data-wow-delay="0.3s"> Find your opportunity </h1>
                         </div>
                     </div>
                 </div>
@@ -75,7 +83,7 @@
     <section class="blog_wrap">
                     <div class="currentOpeningWrap">
                         <div class="container">
-                            <div class="row">
+                            <div class="row justify-content-center">
                                 <div class="col-md-8 col-sm-8 col-12">
                                     <h4 class="currTitle wow fadeInUp" data-wow-delay="0.2s"><span>Current</span> openings</h4>
                                     <div class="jobContent">
@@ -167,7 +175,7 @@
                                                 </h5>
                                                 <div
                                                         id="job_2"
-                                                        class="accordion-collapse collapse"
+                                                        class="accordion-collapse  collapse show"
                                                         data-bs-parent="#job"
                                                 >
                                                     <div class="jobDetails">
@@ -232,48 +240,24 @@
         </div>
     </section>
     <!-- end blog_wrap -->
-    
+
     <!-- start footer_wrap -->
     <footer class="footer_wrap">
         <div class="overlay"></div>
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-between">
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="footer_single_item wow fadeInUp" data-wow-delay="0.2s">
-                        <a href="index.html" class="footer_logo">AG<span class="brand_color">ENCYT</span>M</a>
-                        <p>Natoque omnis, sem euismod praesent find an praesentium felis voluptates mattis nobis lacus expedita convallis! </p>
+                        <a href="index.php" class="footer_logo"><img src="./assets/img/logo.png" alt=""></a>
+                        <p>We are the digital platform and managed service solution provider focused on developing customer
+                            centric solutions.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                    <div class="footer_single_item wow fadeInUp" data-wow-delay="0.4s">
-                        <h4 class="footer_title">Get in Touch</h4>
-                        <ul class="footer_menu">
-                            <li><a href="#">Facebook</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Dribble</a></li>
-                            <li><a href="#">Linkedin</a></li>
-                            <li><a href="#">Behance</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6 col-sm-6 col-12">
-                    <div class="footer_single_item wow fadeInUp" data-wow-delay="0.6s">
-                        <h4 class="footer_title">Products</h4>
-                        <ul class="footer_menu">
-                            <li><a href="#">ios app design</a></li>
-                            <li><a href="#">Logo design</a></li>
-                            <li><a href="#">Mobile app design</a></li>
-                            <li><a href="#">Graphic design</a></li>
-                            <li><a href="#">Desktop software</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                     <div class="footer_single_item wow fadeInUp" data-wow-delay="0.8s">
                         <h4 class="footer_title">Address</h4>
-                        <p>135a Hatfield Road, <br> St Albans, Herts AL1 4JX, UK </p>
-                        <p><a href="tel:+4401727859373">Tel: + 44 (0)1727 85 93 73 </a><a href="tel:+4401727844272">Fax: + 44 (0)1727 84 42 72 </a></p>
-                        <p><a href="mailto:sales@sensorsuk.com">e-mail: sales@sensorsuk.com</a></p>
+                        <p>Sama Residence, 2nd Floor, Office No-226, Al Nahda First, Dubai</p>
+                        <p><a href="mailto:info@alkashed.com">e-mail: info@alkashed.com</a></p>
                     </div>
                 </div>
             </div>
