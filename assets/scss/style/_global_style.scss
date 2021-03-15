@@ -81,3 +81,67 @@ p {
     color: $dark_color;
     font: 700 34px/44px $pop;
 }
+
+
+.btnGroup {
+    .btnGlob {
+        font-size      : $f16;
+        font-family    : $pop;
+        color          : $white;
+        font-weight    : 500;
+        border         : 2px solid $white;
+        border-radius  : 50px;
+        max-width      : 180px;
+        width          : 100%;
+        height         : 50px;
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+        transition     : all 0.5s;
+        line-height: inherit;
+
+        &:hover {
+            background: $white;
+            color     : #23374D;
+            transform : translateY(-2px);
+            box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.3);
+
+        }
+
+        &.btnDark {
+            border-color: #23374D;
+            background  : #23374D;
+            color       : $white;
+
+            &:hover {}
+        }
+
+        &.btnBorder {}
+    }
+
+    .moreDetails {
+        font-size      : $f16;
+        line-height    : inherit;
+        font-family    : $pop;
+        font-weight    : 500;
+        border         : none;
+        max-width      : 160px;
+        width          : 100%;
+        height         : 50px;
+        border-radius  : 8px;
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
+        transition     : all 0.5s;
+        background     : $brandColor;
+        color          : $white;
+        box-shadow: none;
+        line-height: inherit;
+
+        &:hover {
+            box-shadow: 0px 20px 30px rgba(255, 126, 63, 0.4);
+            // transform : translateY(-2px);
+        }
+    }
+}
+

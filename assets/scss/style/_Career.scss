@@ -1,0 +1,236 @@
+.opportunityWrap {
+  padding: 75px 0;
+
+  .opportunityLeftContent {
+    .secTitle {
+    }
+
+    .oppPara {
+      color: $darkLight;
+      margin-bottom: 25px;
+      font-size: $f16;
+    }
+  }
+
+  .opportunityNote {
+    background: $brandColor;
+    border-radius: 12px;
+    display: flex;
+    align-items: flex-start;
+    max-width: 397px;
+    width: 100%;
+    padding: 22px;
+    margin-left: auto;
+
+    img {
+      margin-right: 10px;
+    }
+
+    p {
+      color: $white;
+      font-size: $f18;
+    }
+  }
+}
+
+.currentOpeningWrap {
+  background: linear-gradient(to top, #ffffff, #F6F7F9);
+  padding: 75px 0;
+
+  .currTitle {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: $dark;
+    margin-bottom: 25px;
+    font-family: $gib;
+
+    span {
+      font-weight: 400;
+      color: $darkLight;
+    }
+  }
+
+  .jobContent {
+    .jobItem {
+      border: 3px solid #F2F2F3;
+      padding: 25px 30px;
+      margin-bottom: 25px;
+      border-radius: 12px;
+      background: #fff;
+
+      .jobTitle {
+        cursor: pointer;
+        color: $brandColor;
+        font-size: $f20;
+        font-family: $gib;
+        font-weight: 600;
+      }
+
+      .jobDetails {
+        padding-top: 25px;
+
+        h6 {
+          color: $darkLight;
+          margin-bottom: 5px;
+          font-weight: 600;
+        }
+
+        .jobPostList {
+          list-style: disc;
+          padding-left: 30px;
+          margin-bottom: 30px;
+          li {
+            color: $darkLight;
+            ul {
+              list-style: inherit;
+              padding-left: 30px;
+            }
+          }
+        }
+
+        p {
+          color: $darkLight;
+          margin-bottom: 30px;
+        }
+
+        .requ {
+          margin-bottom: 20px;
+
+          .reqItem {
+            color: $darkLight;
+            display: inline-block;
+            margin-right: 50px;
+            font-size: $f16;
+
+            b {
+            }
+          }
+        }
+
+        .btnGlob {
+          .applyBtn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 160px;
+            width: 100%;
+            background: $brandColor;
+            color: $white;
+            font-size: 16px;
+            font-weight: 600;
+            height: 50px;
+            border-radius: 8px;
+            transition: all 0.5s;
+            box-shadow: none;
+
+            &:hover {
+              box-shadow: -10px 20px 30px rgba(255, 126, 63, 0.4);
+              //   transform : translateY(-2px);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .jobBenifitWrap {
+    max-width: 397px;
+    width: 100%;
+    margin-left: auto;
+
+    .benifitImg {
+      margin-bottom: 40px;
+
+      img {
+        border-radius: 12px;
+      }
+    }
+
+    .jobBenifit {
+      .job_benifit {
+        .job_benifit_Item {
+          margin-bottom: 30px;
+
+          .jobTitle {
+            cursor: pointer;
+            color: $dark;
+            font-size: $f18;
+            font-family: $gib;
+            font-weight: 600;
+            transition: all 0.5s;
+            position: relative;
+            //padding-left: 40px;
+
+            /*
+              &::before {
+                  position       : absolute;
+                  content        : "+";
+                  width          : 27px;
+                  height         : 27px;
+                  display        : flex;
+                  align-items    : center;
+                  justify-content: center;
+                  border-radius  : 6px;
+                  color          : $white;
+                  background     : $brandColor;
+                  left           : 0;
+                  top            : 50%;
+                  transform      : translateY(-50%);
+                  transition     : all 0.5s;
+              }
+*/
+
+            &[aria-expanded="true"] {
+              color: $brandColor;
+
+              /*
+               &::before {
+                   content: "-";
+               }
+               */
+            }
+          }
+
+          .job_benifit_Details {
+            padding-top: 10px;
+
+            .job_benifit_list {
+              //padding-left: 25px;
+
+              li {
+                color: $darkLight;
+                padding-left: 12px;
+                position: relative;
+
+                &::before {
+                  position: absolute;
+                  content: "\f105";
+                  font-family: 'FontAwesome';
+                  left: 0;
+                  top: 0;
+                  transition: all 0.5s;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.uploadCV {
+  .subForm {
+    .form-control {
+      cursor: pointer;
+
+      input[type="file"] {
+        display: none;
+      }
+    }
+
+    .subBtn {
+    }
+  }
+}

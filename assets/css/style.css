@@ -59,6 +59,73 @@ p {
   color: #414D60;
   font: 700 34px/44px "Poppins", sans-serif; }
 
+.btnGroup .btnGlob {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: 500;
+  border: 2px solid #fff;
+  border-radius: 50px;
+  max-width: 180px;
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  line-height: inherit; }
+  .btnGroup .btnGlob:hover {
+    background: #fff;
+    color: #23374D;
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 20px 10px rgba(0, 0, 0, 0.3); }
+  .btnGroup .btnGlob.btnDark {
+    border-color: #23374D;
+    background: #23374D;
+    color: #fff; }
+
+.btnGroup .moreDetails {
+  font-size: 16px;
+  line-height: inherit;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  border: none;
+  max-width: 160px;
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  background: #FF7E3F;
+  color: #fff;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  line-height: inherit; }
+  .btnGroup .moreDetails:hover {
+    -webkit-box-shadow: 0px 20px 30px rgba(255, 126, 63, 0.4);
+    box-shadow: 0px 20px 30px rgba(255, 126, 63, 0.4); }
+
 /*======================        header style    ============================  */
 .header {
   position: fixed;
@@ -821,6 +888,292 @@ p {
         font-size: 17px; }
 
 /*  ===============================        blog    =========================================  */
+.contactInfoWrap {
+  padding: 100px 0 0; }
+  .contactInfoWrap .contactSingleItem {
+    background: #fff;
+    -webkit-box-shadow: 0 20px 40px rgba(35, 55, 77, 0.1);
+    box-shadow: 0 20px 40px rgba(35, 55, 77, 0.1);
+    border-radius: 12px;
+    margin-bottom: 30px;
+    padding: 16px 50px 30px; }
+    .contactInfoWrap .contactSingleItem .conIcon {
+      margin-bottom: -15px; }
+    .contactInfoWrap .contactSingleItem .conInfo .conTitle {
+      color: #23374D;
+      font-size: 26px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      margin-bottom: 20px; }
+    .contactInfoWrap .contactSingleItem .conPara {
+      color: #7C7E8D;
+      font-size: 16px;
+      font-family: "Poppins", sans-serif; }
+
+.contactinfoMapWrap {
+  padding-top: 70px; }
+  .contactinfoMapWrap .findusTitle {
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px; }
+  .contactinfoMapWrap .mapWrap .contact_map {
+    height: 460px;
+    width: 100%; }
+
+.contactFormWrap {
+  padding-bottom: 100px; }
+  .contactFormWrap .contactFormBody {
+    background: #fff;
+    -webkit-box-shadow: 0 20px 40px rgba(35, 55, 77, 0.1);
+    box-shadow: 0 20px 40px rgba(35, 55, 77, 0.1);
+    padding: 30px 50px;
+    border-radius: 6px; }
+    .contactFormWrap .contactFormBody .formTitle {
+      margin-bottom: 30px;
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 30px; }
+    .contactFormWrap .contactFormBody .contactForm .form .form-group {
+      margin-bottom: 25px; }
+      .contactFormWrap .contactFormBody .contactForm .form .form-group p {
+        color: #7C7E8D;
+        margin-bottom: 5px; }
+      .contactFormWrap .contactFormBody .contactForm .form .form-group .form-control {
+        border: 1px solid #FFDAC8;
+        height: 50px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        outline: none; }
+      .contactFormWrap .contactFormBody .contactForm .form .form-group textarea.form-control {
+        height: 150px; }
+      .contactFormWrap .contactFormBody .contactForm .form .form-group .btnGroup {
+        padding-top: 10px; }
+        .contactFormWrap .contactFormBody .contactForm .form .form-group .btnGroup .moreDetails {
+          background: #23374D;
+          -webkit-transform: none;
+          -ms-transform: none;
+          transform: none; }
+          .contactFormWrap .contactFormBody .contactForm .form .form-group .btnGroup .moreDetails:hover {
+            -webkit-box-shadow: -10px 20px 30px rgba(35, 55, 77, 0.3);
+            box-shadow: -10px 20px 30px rgba(35, 55, 77, 0.3); }
+
+.newsletterWrap {
+  padding: 45px 0; }
+  .newsletterWrap .newsletterContentInner .icon {
+    margin-right: 30px; }
+  .newsletterWrap .newsletterContentInner .newsletterContent {
+    max-width: 400px;
+    width: 100%; }
+    .newsletterWrap .newsletterContentInner .newsletterContent h4 {
+      color: #fff;
+      font-weight: 600;
+      font-size: 34px; }
+    .newsletterWrap .newsletterContentInner .newsletterContent p {
+      color: #fff; }
+  .newsletterWrap .subForm .formInner .form-control {
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 6px 0px 0px 6px;
+    background: transparent;
+    color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none; }
+    .newsletterWrap .subForm .formInner .form-control::-webkit-input-placeholder {
+      color: #fff; }
+    .newsletterWrap .subForm .formInner .form-control:-ms-input-placeholder {
+      color: #fff; }
+    .newsletterWrap .subForm .formInner .form-control::-ms-input-placeholder {
+      color: #fff; }
+    .newsletterWrap .subForm .formInner .form-control::placeholder {
+      color: #fff; }
+  .newsletterWrap .subForm .formInner .subBtn {
+    max-width: 165px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    background: #fff;
+    color: #FF7E3F;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin-left: -10px;
+    font-weight: 600;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: none; }
+
+.opportunityWrap {
+  padding: 75px 0; }
+  .opportunityWrap .opportunityLeftContent .oppPara {
+    color: #7C7E8D;
+    margin-bottom: 25px;
+    font-size: 16px; }
+  .opportunityWrap .opportunityNote {
+    background: #FF7E3F;
+    border-radius: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    max-width: 397px;
+    width: 100%;
+    padding: 22px;
+    margin-left: auto; }
+    .opportunityWrap .opportunityNote img {
+      margin-right: 10px; }
+    .opportunityWrap .opportunityNote p {
+      color: #fff;
+      font-size: 18px; }
+
+.currentOpeningWrap {
+  background: -webkit-gradient(linear, left bottom, left top, from(#ffffff), to(#F6F7F9));
+  background: -webkit-linear-gradient(bottom, #ffffff, #F6F7F9);
+  background: -o-linear-gradient(bottom, #ffffff, #F6F7F9);
+  background: linear-gradient(to top, #ffffff, #F6F7F9);
+  padding: 75px 0; }
+  .currentOpeningWrap .currTitle {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    color: #23374D;
+    margin-bottom: 25px;
+    font-family: "Poppins", sans-serif; }
+    .currentOpeningWrap .currTitle span {
+      font-weight: 400;
+      color: #7C7E8D; }
+  .currentOpeningWrap .jobContent .jobItem {
+    border: 3px solid #F2F2F3;
+    padding: 25px 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    background: #fff; }
+    .currentOpeningWrap .jobContent .jobItem .jobTitle {
+      cursor: pointer;
+      color: #FF7E3F;
+      font-size: 20px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600; }
+    .currentOpeningWrap .jobContent .jobItem .jobDetails {
+      padding-top: 25px; }
+      .currentOpeningWrap .jobContent .jobItem .jobDetails h6 {
+        color: #7C7E8D;
+        margin-bottom: 5px;
+        font-weight: 600; }
+      .currentOpeningWrap .jobContent .jobItem .jobDetails .jobPostList {
+        list-style: disc;
+        padding-left: 30px;
+        margin-bottom: 30px; }
+        .currentOpeningWrap .jobContent .jobItem .jobDetails .jobPostList li {
+          color: #7C7E8D; }
+          .currentOpeningWrap .jobContent .jobItem .jobDetails .jobPostList li ul {
+            list-style: inherit;
+            padding-left: 30px; }
+      .currentOpeningWrap .jobContent .jobItem .jobDetails p {
+        color: #7C7E8D;
+        margin-bottom: 30px; }
+      .currentOpeningWrap .jobContent .jobItem .jobDetails .requ {
+        margin-bottom: 20px; }
+        .currentOpeningWrap .jobContent .jobItem .jobDetails .requ .reqItem {
+          color: #7C7E8D;
+          display: inline-block;
+          margin-right: 50px;
+          font-size: 16px; }
+      .currentOpeningWrap .jobContent .jobItem .jobDetails .btnGlob .applyBtn {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        max-width: 160px;
+        width: 100%;
+        background: #FF7E3F;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        height: 50px;
+        border-radius: 8px;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        -webkit-box-shadow: none;
+        box-shadow: none; }
+        .currentOpeningWrap .jobContent .jobItem .jobDetails .btnGlob .applyBtn:hover {
+          -webkit-box-shadow: -10px 20px 30px rgba(255, 126, 63, 0.4);
+          box-shadow: -10px 20px 30px rgba(255, 126, 63, 0.4); }
+  .currentOpeningWrap .jobBenifitWrap {
+    max-width: 397px;
+    width: 100%;
+    margin-left: auto; }
+    .currentOpeningWrap .jobBenifitWrap .benifitImg {
+      margin-bottom: 40px; }
+      .currentOpeningWrap .jobBenifitWrap .benifitImg img {
+        border-radius: 12px; }
+    .currentOpeningWrap .jobBenifitWrap .jobBenifit .job_benifit .job_benifit_Item {
+      margin-bottom: 30px; }
+      .currentOpeningWrap .jobBenifitWrap .jobBenifit .job_benifit .job_benifit_Item .jobTitle {
+        cursor: pointer;
+        color: #23374D;
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        -webkit-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+        position: relative;
+        /*
+              &::before {
+                  position       : absolute;
+                  content        : "+";
+                  width          : 27px;
+                  height         : 27px;
+                  display        : flex;
+                  align-items    : center;
+                  justify-content: center;
+                  border-radius  : 6px;
+                  color          : $white;
+                  background     : $brandColor;
+                  left           : 0;
+                  top            : 50%;
+                  transform      : translateY(-50%);
+                  transition     : all 0.5s;
+              }
+*/ }
+        .currentOpeningWrap .jobBenifitWrap .jobBenifit .job_benifit .job_benifit_Item .jobTitle[aria-expanded="true"] {
+          color: #FF7E3F;
+          /*
+               &::before {
+                   content: "-";
+               }
+               */ }
+      .currentOpeningWrap .jobBenifitWrap .jobBenifit .job_benifit .job_benifit_Item .job_benifit_Details {
+        padding-top: 10px; }
+        .currentOpeningWrap .jobBenifitWrap .jobBenifit .job_benifit .job_benifit_Item .job_benifit_Details .job_benifit_list li {
+          color: #7C7E8D;
+          padding-left: 12px;
+          position: relative; }
+          .currentOpeningWrap .jobBenifitWrap .jobBenifit .job_benifit .job_benifit_Item .job_benifit_Details .job_benifit_list li::before {
+            position: absolute;
+            content: "\f105";
+            font-family: 'FontAwesome';
+            left: 0;
+            top: 0;
+            -webkit-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s; }
+
+.uploadCV .subForm .form-control {
+  cursor: pointer; }
+  .uploadCV .subForm .form-control input[type="file"] {
+    display: none; }
+
 /*  ========================================  footer_wrap  ======================================  */
 .footer_wrap {
   background: url(../img/footer_bg.jpg) no-repeat scroll top left/cover;
@@ -832,7 +1185,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(26, 27, 70, 0.85); }
+    background: rgba(0, 0, 0, 0.9); }
   .footer_wrap .footer_single_item .footer_logo {
     display: inline-block;
     font: 600 30px/30px "Poppins", sans-serif;
@@ -841,7 +1194,7 @@ p {
     text-decoration: none;
     margin-bottom: 30px; }
     .footer_wrap .footer_single_item .footer_logo img {
-      max-width: 168px;
+      max-width: 220px;
       width: 100%; }
   .footer_wrap .footer_single_item p {
     color: #ffffff;
