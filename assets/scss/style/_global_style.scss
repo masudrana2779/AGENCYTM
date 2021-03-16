@@ -33,7 +33,7 @@ p {
 }
 
 .dark_color {
-    color: $primary_color;
+    color: $dark;
 }
 
 .btn_group {
@@ -54,16 +54,18 @@ p {
         background: $brand_color;
         color: $primary_color;
         &:hover {
-            background: transparent;
-            color: $brand_color;
+            background: $primary_color;
+            color: $brand_color;;
+            border-color: $primary_color;
         }
     }
     &.btn_border {
         background: transparent;
-        color: $brand_color;
+        color: $primary_color;
+        border-color: $primary_color;
         &:hover {
-            background: $brand_color;
-            color: $primary_color;
+            background: $primary_color;
+            color: $brand_color;
         }
 
     }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Demo Website</title>
+    <title>Alkashed Information Technology</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/elegant-icon.css">
@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="assets/css/imagelightbox.css">
     <link rel="stylesheet" href="assets/css/animated.css">
     <link rel="stylesheet" href="assets/icon/flat_icon/flaticon.css">
-
+    <link href="./assets/img/fabicon.png" type="image/x-icon" rel="shortcut icon">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
@@ -29,11 +29,11 @@
                 <nav class="navbar navbar-expand-lg header_nav">
                     <div class="logo">
                         <a class="navbar-brand" href="index.php">
-                            <img src="./assets/img/logo.png" alt="logo">
+                            <img class="class01" src="./assets/img/logo.png" alt="logo">
+                            <img class="class02" src="./assets/img/logo-Final-white.png" alt="logo">
                         </a>
                     </div>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header_main_menu"
-                            aria-expanded="false">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header_main_menu" aria-expanded="false">
                         <span class="bar"></span>
                         <span class="bar"></span>
                         <span class="bar"></span>
@@ -82,11 +82,10 @@
                         </h1>
                         <p class="text-center wow fadeInUp" data-wow-delay="0.4s">Transforming technologies and OTT
                             platform at global scale </p>
-                        <!--                        <div class="btn_group text-center">-->
-                        <!--                            <a href="#" class="btn btn_glob btn_solid wow fadeInUp" data-wow-delay="0.6s">Get-->
-                        <!--                                Started</a>-->
-                        <!--                            <a href="#" class="btn btn_glob btn_border wow fadeInUp" data-wow-delay="0.8s">Read More</a>-->
-                        <!--                        </div>-->
+                                                <div class="btn_group text-center">-->
+                                                    <a href="#about_us" class="btn btn_glob btn_solid wow fadeInUp" data-wow-delay="0.6s">Know More</a>
+                                                    <a href="#contact" class="btn btn_glob btn_border wow fadeInUp" data-wow-delay="0.8s">Contact Us</a>
+                                                </div>
                     </div>
                 </div>
             </div>
@@ -354,7 +353,22 @@
     </div>
 </section>-->
 <!-- end our_team_wrap  -->
+<?php 
+    if(isset($_POST['submit'])){
 
+      $to = "info@alkashed.com";
+      $from = $_POST['email'];
+
+      $first_name = $_POST['first_name'];
+      $last_name = $_POST['last_name'];
+      $subject =$_POST['subjects'];
+      $message = $first_name . "Mobile: " . $last_name . " wrote the following:" . "\n\n" . $_POST['message'];
+
+      $headers = "From:" . $from;
+      mail($to,$subject,$message,$headers);
+      echo "Mail Sent. Thank you " . $first_name . ", we will contact you shortly.";
+    }
+?>
 <!-- start blog_wrap  -->
 <section class="blog_wrap" id="contact">
     <div class="container">
@@ -377,31 +391,31 @@
 
                                             <div class="row">
                                                 <div class="col-md-6 col-sm-6 col-12 form-group">
-                                                    <p>Your Name</p>
-                                                    <input name="first_name" type="text" class="form-control" />
+                                                  <p>Your Name</p>
+                                                  <input name="first_name" type="text" class="form-control" />
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-12 form-group">
-                                                    <p>Your Phone Number</p>
-                                                    <input name="last_name" type="text" class="form-control" />
+                                                  <p>Your Phone Number</p>
+                                                  <input name="last_name" type="text" class="form-control" />
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-12 form-group">
-                                                    <p>Email Address</p>
-                                                    <input name="email" type="email" class="form-control" />
+                                                  <p>Email Address</p>
+                                                  <input name="email" type="email" class="form-control" />
                                                 </div>
                                                 <div class="col-md-6 col-sm-6 col-12 form-group">
-                                                    <p>Subject</p>
-                                                    <input name="subjects" type="text" class="form-control" />
+                                                  <p>Subject</p>
+                                                  <input name="subjects" type="text" class="form-control" />
                                                 </div>
                                                 <div class="col-md-12 col-sm-12 col-12 form-group">
-                                                    <p>Your Mesage</p>
-                                                    <textarea name="message" class="form-control"></textarea>
+                                                  <p>Your Mesage</p>
+                                                  <textarea name="message" class="form-control"></textarea>
                                                 </div>
                                                 <div class="col-md-12 col-sm-12 col-12 form-group">
-                                                    <div class="btnGroup">
-                                                        <input class="btn moreDetails"  type="submit" value="Submit" name="submit"/>
-                                                    </div>
+                                                  <div class="btnGroup">
+                                                    <input class="btn moreDetails"  type="submit" value="Submit" name="submit"/>
+                                                  </div>
                                                 </div>
-                                            </div>
+                                              </div>
                                         </form>
                                     </div>
                                 </div>
@@ -430,8 +444,8 @@
             <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                 <div class="footer_single_item wow fadeInUp" data-wow-delay="0.8s">
                     <h4 class="footer_title">Address</h4>
-                    <p>Sama Residence, 2nd Floor, Office No-226, Al Nahda First, Dubai</p>
-                    <p><a href="mailto:info@alkashed.com">e-mail: info@alkashed.com</a></p>
+                    <p> <i class="fa fa-map-marker"></i> : Sama Residence, 2nd Floor, Office No-226, Al Nahda First, Dubai</p>
+                    <p class="d-flex align-items-center"><i class="fa fa-envelope"></i>  &nbsp; : &nbsp; <a href="mailto:info@alkashed.com">info@alkashed.com</a></p>
                 </div>
             </div>
         </div>

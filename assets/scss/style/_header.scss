@@ -20,6 +20,9 @@
                 img {
                     max-width: 168px;
                     width: 100%;
+                    &.class01 {
+                        display: none;
+                    }
                 }
             }
         }
@@ -41,7 +44,7 @@
                         
                         &:hover ,
                         &.active {
-                            color: $brand_color;
+                            color: $tcolor;
                         }
                     }
                     &:last-child {
@@ -57,18 +60,30 @@
         background: $primary_color;
         padding: 0;
         box-shadow: 0 3px 11px rgba(0,0,0,0.3);
-        .header_nav .logo a {
-            color: $dark_color;
+        .header_nav {
+            .logo {
+                a {
+                    color: $dark_color;
+                    img {
+                        &.class01 {
+                            display: block;
+                        }
+                        &.class02 {
+                            display: none;
+                        }
+                    }
+                }
+            }
         }
         .header_nav .header_main_menu .nav_menu li.nav-item a.nav-link {
             color: $dark_color;
         }
         .header_nav .header_main_menu .nav_menu li.nav-item:hover a.nav-link, 
         .header_nav .header_main_menu .nav_menu li.nav-item a.nav-link.active {
-            color: $brand_color;
+            color: $tcolor;
         }
         .header_nav button.navbar-toggler span.bar {
-            background: $brand_color;;
+            background: $tcolor;;
         }
     }
 }
