@@ -242,7 +242,7 @@
                     <div class="service_icon text-center">
                         <i class="flaticon-pen"></i>
                     </div>
-                    <h4 class="text-center service_title">SMS & IVR <br> Platform</h4>
+                    <h4 class="text-center service_title">SMS & IVR <br>Platform</h4>
                     <p class="text-center service_para">We provide Telco Systems and Services globally with 4 operators
                         of bangladesh.</p>
                     <div class="text-center">
@@ -353,6 +353,7 @@
     </div>
 </section>-->
 <!-- end our_team_wrap  -->
+
 <?php 
     if(isset($_POST['submit'])){
 
