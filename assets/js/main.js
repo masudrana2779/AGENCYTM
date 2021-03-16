@@ -1,6 +1,38 @@
 $(function () {
     "use strict";
 
+
+
+    function scrollTop() {
+
+        //js for scroll to section content
+        $('#go-top[href^="#"]').on('click', function (event) {
+            var target = $(this.getAttribute('href'));
+            if (target.length) {
+                event.preventDefault();
+                $('html, body').stop().animate({
+                    scrollTop: $('body').offset().top
+                }, 2000);
+            }
+        });
+
+        // hide #go-top first
+        $("#go-top").hide();
+        // fade in #go-topp
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 100) {
+                    $('#go-top').fadeIn();
+                } else {
+                    $('#go-top').fadeOut();
+                }
+            });
+            // scroll body to 0px on click
+        });
+    }
+
+    scrollTop();
+
     function scrollTopFixed(htOp) {
         var windowTop = $(window).scrollTop();
         if (windowTop > 0) {

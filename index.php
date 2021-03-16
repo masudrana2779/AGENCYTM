@@ -453,6 +453,8 @@
 </footer>
 <!-- end footer_wrap -->
 
+<a href="#home" id="go-top"><i class="fa fa-chevron-up"></i></a>
+
 <script src="assets/js/jquery-3.4.1.min.js"></script>
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/slick.min.js"></script>
